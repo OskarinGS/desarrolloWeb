@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de seleccion</title>
+</head>
+<body>
+    <header>
+        <h1>Cursos disponibles</h1>
+    </header>
+    <section>
+        <h2>Selecciona el curso que desees:</h2>
+        <h3>Forma no recomendada para crear uan lista select</h3> 
+        <form name="lista1" action=""> 
+            <select name="cursos"> 
+                <option value="JavaScrip">JavaScrip</option> 
+                <option value="HTML5">HTML5</option> 
+                <option value="CSS3">CSS3</option> 
+                <option value="Estandares Web">Estandares Web</option> 
+            </select> 
+            <br> 
+            <br> 
+            <input type="submit">
+            <br> 
+            <br>
+        </form>
+        <h3>Forma moderna y recomendada para crear una lista select</h3> 
+        <form name="lista2" action="">
+            <span>Selecciona el curso que desees:</span>
+            <input list="cursos2">
+            <datalist name="cursos2" id="cursos2">
+                <option value="JavaScrip">JavaScrip</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Estandares Web">Estandares Web</option>
+            </datalist>
+            <br>
+            <br>
+            <input type="submit">
+            <br>
+            <br>
+            <a href="../index.html">Ir al inicio</a>
+            <br>
+            <br>
+            <figure>
+                <img src="../img/pexels-mohi-syed-47261.jpg"
+                alt="Otra computadora">
+                <figcaption>Figura 1: Samsung</figcaption>
+            </figure>
+        </form>
+    </section>   
+</body>
+</html>

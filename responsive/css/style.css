@@ -1,0 +1,68 @@
+:root{
+    --bitcion-orange: #f7931a;
+    --morado-suave: (129, 2, 124);
+    --azulaqua: aqua;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c1{
+    background: linear-gradient(aqua, chocolate);
+    
+}
+.c2{
+    background-color: rgb(231, 98, 75);
+}
+.c3{
+    background: linear-gradient(rgb(103, 168, 168), rgb(21, 238, 94));
+}
+.c4{
+    background-color: rgb(240, 236, 6);
+}
+.c5{
+    background-color: var(--azulaqua);
+}
+
+/*@media (min-width: 600px){
+    /*Cuando la pantalla llega a 600px o mas,
+    aplicara los estilos de este bloque*/
+   /* .c2, .c3, .c4{
+        width: 50%;
+    }
+/*@media (min-width: 800px){
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

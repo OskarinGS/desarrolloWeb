@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*.picture{
+    width: 800px;
+    height: 700px;
+}*/
+
+img{
+    width: 100%;
+}

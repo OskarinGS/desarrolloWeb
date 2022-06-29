@@ -1,0 +1,54 @@
+/* Hoja de estilo para ejercicio de especificidad */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: serif;
+    color: rgb(230, 123, 24);
+    margin-bottom: 50px;
+}
+
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav{
+    margin-top: 25px;
+    list-style-type: none;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav a{
+    color: rgb(199, 223, 199);
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nav .blog{
+    background-color: aqua;
+}
+
+/* Combinador hermano adyacente */
+h2 + p {
+    background-color: cornflowerblue;
+    color: darkolivegreen;
+    padding: 10px;
+}
+/* Hereda a sus hijos directos */
+div ~ p{
+    color: darkorange;
+}

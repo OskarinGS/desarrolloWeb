@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(7, 72, 88);
+    background-color: rgb(236, 207, 197);
+
+}
+
+h1{
+    font-size:xx-large;
+    text-decoration: dashed;
+    color: rgb(58, 55, 52);
+    letter-spacing: 10px;
+}
+
+h2{
+    font-size: x-large;
+    text-decoration: wavy;
+    color: rgb(34, 37, 34);
+    letter-spacing: 6px;
+}
+
+.clase1{
+    background-color: turquoise;
+    color: rgb(224, 47, 136);
+    text-align: center;
+    border-color: rgb(59, 54, 59);
+    border-style: solid;
+}
+
+#id1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-shadow: 10pt;
+    background-color: rgb(190, 67, 22);
+}
+     
+    

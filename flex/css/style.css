@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black
+}
+
+.container{
+    border: .3rem solid salmon;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: row;
+    justify-content:stretch;
+    align-items:baseline;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: rgb(202, 42, 141);
+}
+.box4{
+    background-color: crimson;
+}
+.box5{
+    background-color: darkgreen;
+    order: 4;
+}
+.box6{
+    background-color: yellow;
+    order: 2;
+}

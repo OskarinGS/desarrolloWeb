@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario para ingresar datos</h1>
+    </header>
+    <main>
+        <form name="Form1" action="" >
+            <label for="nombre">
+                <span>Escribe tu nombre:</span>
+                <input type="text" id="nombre" autocomplete="name" required>
+            </label>
+            <br>
+            <br>
+            <label for="edad">
+                <span>Escribe tu edad:</span>
+                <input type="number" id="edad">
+            </label>
+            <br>
+            <br>
+            <label for="mail">
+                <span>Escribe tu correo electronico:</span>
+                <input type="email" id="mail" autocomplete="email" required>
+            </label>
+            <br>
+            <br>
+            <label for="pais">
+                <span>¿En que pais vives?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country-name">
+            </label>
+            <br>
+            <br>
+            <label for="cp">
+                <span>Escribe tu Codigo Postal:</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <br>
+            <br>
+            <input type="submit"/>
+            <br>
+            <br>
+            <a href="../index.html">Ir a pagina inicial</a>
+        </form>
+    </main>
+</body>
+</html>
